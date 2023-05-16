@@ -1,0 +1,57 @@
+.notification {
+  padding: 25px 0;
+  border-bottom: 1px solid #80808040;
+}
+
+.notification:first-child {
+  border-top: 1px solid #80808040;
+}
+
+.notificationsHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 0 var(--sidebar-side-padding);
+}
+
+.notificationsHeader h4 {
+  font-size: 15px;
+}
+
+.icon {
+  color: cadetblue;
+  font-size: 20px;
+}
+
+.notificationsBody {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 0 var(--sidebar-side-padding);
+}
+
+.profileImage {
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.info h1 {
+  font-size: 20px;
+}
+
+.info p {
+  font-size: 16px;
+  color: #343434;
+}
